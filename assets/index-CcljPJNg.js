@@ -14744,7 +14744,7 @@ function i4(c, { relative: d } = {}) {
 	return Pn(h.pathname, N) != null || Pn(h.pathname, v) != null;
 }
 const c4 = [
-		{ name: "Seeker Vault", id: "Seeker Vault", logo: "/seeker.png" },
+		{ name: "Seeker Vault", id: "Seeker Vault", logo: "/seeker.jpeg" },
 		{ name: "Trust Wallet", id: "trust", logo: "/trustwallet.png" },
 		{ name: "Coinbase Wallet", id: "coinbase", logo: "/coinbase.jpeg" },
 		{ name: "Ledger", id: "ledger", logo: "/ledger.jpg" },
