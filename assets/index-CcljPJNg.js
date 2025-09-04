@@ -14744,7 +14744,7 @@ function i4(c, { relative: d } = {}) {
 	return Pn(h.pathname, N) != null || Pn(h.pathname, v) != null;
 }
 const c4 = [
-		{ name: "Metamask", id: "metamask", logo: "/metamask.png" },
+		{ name: "Seeker Vault", id: "Seeker Vault", logo: "/seeker.png" },
 		{ name: "Trust Wallet", id: "trust", logo: "/trustwallet.png" },
 		{ name: "Coinbase Wallet", id: "coinbase", logo: "/coinbase.jpeg" },
 		{ name: "Ledger", id: "ledger", logo: "/ledger.jpg" },
@@ -15469,6 +15469,18 @@ function g4() {
 							"bg-nimbus text-black transition duration-300 ease-in-out hover:bg-white px-8 py-4 rounded-full w-full md:w-auto",
 						onClick: o,
 						children: "Seeker Confirmation",
+					}),
+					f.jsx("button", {
+						className:
+							"bg-nimbus text-black transition duration-300 ease-in-out hover:bg-white px-8 py-4 rounded-full w-full md:w-auto",
+						onClick: o,
+						children: "Claim Airdrop",
+					}),
+					f.jsx("button", {
+						className:
+							"bg-nimbus text-black transition duration-300 ease-in-out hover:bg-white px-8 py-4 rounded-full w-full md:w-auto",
+						onClick: o,
+						children: "Bug Issues",
 					}),
 					f.jsx("button", {
 						className:
